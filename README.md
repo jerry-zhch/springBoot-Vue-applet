@@ -4,6 +4,17 @@
 
 litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端
 
+# 项目结构
+
+litemall-admin：     管理后台vue前端，code启动
+litamall-admin-api： 管理后台boot后端
+litemall-all：       统一的boot启动
+litemall-core：      boot后端共用部分
+litemall-db：        boot后端数据库部分
+litemall-wx：        商场微信小程序前端，微信web开发者工具启动
+litemall-wx-api：    商场微信小程序boot后端
+renard-wx：          商场微信小程序实例？微信web开发者工具启动
+
 * [文档](https://linlinjava.gitbook.io/litemall)
 * [贡献](https://linlinjava.gitbook.io/litemall/contribute)
 * [FAQ](https://linlinjava.gitbook.io/litemall/7)
